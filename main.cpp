@@ -334,7 +334,7 @@ int main()
         "Unable to open input file\n";
         return 0;
     }
-    // mapping every char in character set to an it's index int global map char_set
+    // mapping every char in character set to it's index in global map char_set
     int cnt = 1;
     for(int i = 0; i < input_set.length();++i){
         char letter = input_set[i] ;
@@ -401,7 +401,7 @@ int main()
         }
 
         else{
-            cout << "Error please choose 1 or to " << endl ;
+            cout << "Error please choose 1 or 2 " << endl ;
             continue;
         }
         }
@@ -436,7 +436,7 @@ int main()
             }
 
             else{
-                cout << "Error please choose 1 or to " << endl ;
+                cout << "Error please choose 1 or 2 " << endl ;
                 continue;
             }
 
