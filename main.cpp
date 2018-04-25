@@ -1,12 +1,16 @@
+/*
+Adaptive Huffman Algorithm 
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
 #define not_symbol -1   // for internal nodes
 map<char,int> char_set;
+map<char,string> codes;
 int m, e, r;
 
-int start, End;
-map<char,string> codes;
+
 /*
 structure of each node
 */
